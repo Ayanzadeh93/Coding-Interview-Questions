@@ -1,2 +1,14 @@
-#create constants for slot
+# create a constant value with slots
 
+class car: 
+
+    def __init__(self, color, model, speed):
+        self.color = color
+        self.model = model
+        self.speed = speed
+    def horn(self):
+        print("Beep Beep")
+
+    
+pride=car("red", "BMW", "100")
+pride.__dict__
